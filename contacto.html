@@ -1,0 +1,199 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <!-- build:css css/index.css -->
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="node_modules/open-iconic/font/css/open-iconic-boostrap.min.css">
+    <link href="/open-iconic/font/css/open-iconic-bootstrap.css" rel="stylesheet">
+  <link rel="stylesheet"  href="css/styles.css">
+  <!-- endbuild -->
+    <title>Contactanos</title>
+  </head>
+
+
+  <body>
+
+    <nav class="navbar navbar-dark navbar-expand-lg bg-dark fixed-top">
+      <a class="navbar-brand" href="#">Hoteles</a>
+       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNavDropdown">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="about.html">Nosotros</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="precios2.html">Precios</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Terminos y condiciones</a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="contacto.html">Contactanos</a>
+      </li>
+      
+        </div>
+      </li>
+    </ul>
+  </div>
+
+    </nav>
+
+
+
+
+<div class="jumbotron jumbotron-fluid">
+  <div class="container">
+    <h1 class="display-4">Hoteles en Veracruz</h1>
+    <p class="lead">Ven y hospedate con nosotros</p>
+  </div>
+</div>
+
+<div class="container-fluid">
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+     <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+    <li class="breadcrumb-item active" aria-current="page">Contactanos</li>
+  </ol>
+</nav>
+
+   
+<!--formulario de contacto-->
+
+      <h1>Formulario de contacto</h1>
+        <h3>Escríbenos y en breve los pondremos en contacto contigo</h3>
+
+
+          <form action="submeter-formulario.php" method="post">       
+
+              <div class="form-row">
+                <div class="form-group col-sm-6">
+                <p>
+                  <label for="nombre">Nombre
+                    <span class="obligatorio">*</span>
+                  </label>
+                    <input type="text" class="form-control" name="introducir_nombre" id="nombre" required="obligatorio" placeholder="Escribe tu nombre">
+                </p>
+                </div>
+
+                <div class="form-group col-sm-6">
+                <p>
+                  <label for="email">Email
+                    <span class="obligatorio">*</span>
+                  </label>
+                    <input type="email"  class="form-control" name="introducir_email" id="email" required="obligatorio" placeholder="Escribe tu Email">
+                </p>
+                </div>
+                <div class="form-group col-md-4">
+                  <label for="inputState">Estado</label>
+                  <select id="inputState" class="form-control">
+                    <option selected>Veracruz</option>
+                    <option>Puebla</option>
+                    <option>Cdmx</option>
+                    <option>Tlaxcala</option>
+                  </select>
+                </div>
+
+                <div class="form-group col-sm-6">
+                <p>
+                  <label for="asunto">Asunto
+                    <span class="obligatorio">*</span>
+                  </label>
+                    <input type="text" class="form-control" name="introducir_asunto" id="asunto" required="obligatorio" placeholder="Escribe un asunto">
+                </p>    
+                </div>
+
+                <div class="form-group col-sm-9">
+                <p>
+                  <label for="mensaje">Mensaje
+                    <span class="obligatorio">*</span>
+                  </label>                     
+                  <textarea name="introducir_mensaje" class="form-control" id="mensaje" required="obligatorio" placeholder="Deja aquí tu comentario..."></textarea> 
+                </p>   
+                </div>
+
+
+                <div class="form-check col-sm-9">
+                  <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                  <label class="form-check-label" for="flexCheckChecked">Recibir notificaciones
+                  </label><br>
+                   <button type="submit" name="enviar_formulario" id="enviar"><p>Enviar</p></button>
+                </div><br>
+
+                
+
+                
+
+                <p class="aviso">
+                  <span class="obligatorio"> * </span>los campos son obligatorios.
+                </p>      
+
+
+              </div>
+                
+
+
+          </form>
+  
+
+
+<br>
+
+
+
+<footer class="container-fluid">
+  <div class="row">
+    <div class="col-md-4 d-flex flex-column">
+      <h3>Tus hoteles.com</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque dolores ratione minus, voluptates dolore soluta harum. Nobis neque doloribus corrupti iusto rem beatae libero, incidunt animi nemo voluptatem dolores accusantium magni ad ipsum eum repellendus vero deleniti velit molestiae quaerat, veniam ducimus labore sapiente? Commodi ad, pariatur. Ab consectetur, quasi!</p>
+      <address>Boca del Rio, Veracruz</address>
+    </div>
+    <div class="col-md-4 d-flex flex-column">
+      <h3>Desarrollado por:</h3>
+      <div class="author-info" align="center">
+        <img src="https://thumbs.dreamstime.com/z/vector-el-icono-del-avatar-del-usuario-para-el-sitio-web-o-el-m%C3%B3vil-45836554.jpg" width="60"  class="avatar">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum excepturi possimus tempora porro, a est atque? Rem eaque, ullam, dolore fugit cupiditate odio ipsum fugiat quae, error accusantium corporis harum voluptatem perspiciatis dolorem pariatur iste id temporibus voluptatum enim dicta.</p>
+      </div>
+    </div>
+    <div class="col-md-4 d-flex flex-column align-items-center">
+      <h3>Siguenos en</h3>
+      <ul class="redes">
+        <li>
+          <a href="#"><i class="fa fa-facebook-square fa-2x"></i></a>
+        </li>
+        <li>
+          <a href="#"><i class="fa fa-twitter-square fa-2x"></i></a>
+        </li>       
+        <li>
+          <a href="#"><i class="fa fa-youtube-square fa-2x"></i></a>
+        </li>
+      </ul>
+      <h3>Escribenos:</h3>
+      <i class="fa fa-at"></i> <a href="#">hoteles@gmail.com</a>
+    </div>
+  </div>
+</footer>
+
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <!-- build:js js/main.js -->
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="node_modules/popper.js/dist/popper.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+     <script src="js/index.js"></script>
+    <!-- endbuild -->
+  </body>
+</html>
